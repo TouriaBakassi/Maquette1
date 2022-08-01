@@ -117,17 +117,10 @@ main{
     padding: 40px;
     padding-bottom: 60px;
     overflow: auto;
-
-}
-footer>img{
-   
-}
+ }
 footer{
 margin:auto ;
     margin-top: 40px;
     text-align: center;
     width: 70%;
 }
-footer>p{
-
- }
