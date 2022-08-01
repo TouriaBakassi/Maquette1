@@ -1,0 +1,133 @@
+@font-face {
+    font-family:oswald ;
+    src: url("font/oswald/Oswald-Regular.ttf");
+}
+
+body{
+    /* margin:200px ; */
+    margin: 0;
+    margin-bottom: 5px;
+    background-image:url("img/fond.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+header{
+    background-color:#b8cb21;
+    color: rgb(0, 116, 0);
+    padding: 10px;
+    overflow: auto;
+}
+ nav, ul, nav>ul>li {
+    display:inline-block;
+    margin: 6px;
+}
+nav{
+    float: right;
+    margin-top: 30px;
+    font-family: oswald;
+}
+nav>ul>li>a{
+    color: green;
+    font-weight: 600;
+    font-size: 1,8em;
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+a:hover
+    {
+color: green;
+background-color: rgb(171, 205, 50);
+border-left: 2px solid rgba(201, 255, 6, 0.616);
+border-bottom: 2px solid rgba(201, 255, 6, 0.616);
+border-radius: 8px 0px 8px 0px;
+    }
+h2, h2>i{
+    color: rgb(163, 218, 54);
+    font-family: oswald;
+    margin-top: 20px;
+} 
+#firstarticle{
+    overflow: auto;
+}   
+#imgwho{
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+}
+#firstarticle>article{
+width: 40vw;
+margin-top: 15px;
+}
+#secondarticle>article{
+    margin-top: 90px;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+}
+
+.buttonwho{
+    color: white;
+    background-color:rgb(163, 218, 54);
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 15px;
+    float: right;
+}
+.buttonwho:hover{
+    box-shadow: 1px 1px 2px green;
+}
+#imgwhat{
+float: left;
+margin-right: 15px;
+width: 200px;
+}
+
+aside{
+    margin-left: 10px;
+}
+.buttonwhat{
+    color: white;
+    background-color:rgb(163, 218, 54);
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 15px;
+    float: right;
+    
+}
+.buttonwhat:hover{
+    box-shadow: 1px 1px 2px green;
+}
+main{
+    background-color: white;
+    border: none;
+    padding: 40px;
+    padding-bottom: 60px;
+    overflow: auto;
+
+}
+footer>img{
+   
+}
+footer{
+margin:auto ;
+    margin-top: 40px;
+    text-align: center;
+    width: 70%;
+}
+footer>p{
+
+ }
